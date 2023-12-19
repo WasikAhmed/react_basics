@@ -22,7 +22,7 @@ const UseStateHook = () => {
 
     return (
     <div className="d-flex flex-column align-items-center mt-4">
-        <h1 className="mb-4">useStateHook Demo</h1>
+        <h1 className="mb-4">useState Hook Demo</h1>
         <div className="text-center">
             <Button onClick={decrementCount} variant="primary">-</Button>
             <span>{count}</span>
